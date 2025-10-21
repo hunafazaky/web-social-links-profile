@@ -54,7 +54,7 @@ body p {
   width: clamp(327px, 80vw, 384px);
   max-width: 384px;
   min-width: 327px;
-  background-color: var(--grey-700);
+  background-color: var(--grey-800);
   border-radius: 20px;
   gap: 24px;
   padding: 24px;
@@ -81,10 +81,10 @@ body p {
 }
 
 .card section.header {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card section.header img {
@@ -95,47 +95,42 @@ body p {
 
 .card section.content {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 12px;
 }
 
-.card section.footer {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 12px;
-}
-
-.badge {
-  background-color: var(--yellow);
-  font-size: clamp(12px, 2.5vw, 14px);
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding: 4px 12px;
-  border-radius: 4px;
+.fullname {
+  text-align: center;
+  font-size: 24px;
   font-weight: 800;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.date {
-  font-size: clamp(12px, 2.5vw, 14px);
-  font-weight: 500;
-}
-
-.title {
-  font-size: clamp(20px, 2.5vw, 24px);
-  font-weight: 800;
-  color: var(--gray-950);
+.location {
+  text-align: center;
+  font-size: 16px;
+  color: var(--green);
+  margin: 0;
+  padding: 0;
 }
 
 .caption {
-  font-size: clamp(14px, 2.5vw, 16px);
-  font-weight: 500;
-  color: var(--gray-500);
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.user-name {
-  font-size: 14px;
-  font-weight: 800;
+.social-menu {
+  background-color: var(--grey-700);
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  list-style-type: none;
+  color: white;
 }
