@@ -126,11 +126,33 @@ body p {
   padding: 0;
 }
 
+.social-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.social-box ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
 .social-menu {
+  text-align: center;
   background-color: var(--grey-700);
   margin: 10px;
   padding: 10px;
   width: 100%;
   list-style-type: none;
   color: white;
+  border-radius: 10px;
 }
