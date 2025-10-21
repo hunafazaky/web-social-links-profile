@@ -87,6 +87,12 @@ body p {
   height: 200px;
 }
 
+.card section.header img {
+  /* width: 64px;
+  height: 64px; */
+  border-radius: 50%;
+}
+
 .card section.content {
   display: flex;
   flex-direction: column;
