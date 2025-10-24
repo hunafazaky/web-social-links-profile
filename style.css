@@ -6,22 +6,20 @@
 }
 
 @font-face {
-  font-family: "Figtree";
-  src: url("./assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Figtree";
-  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
   font-weight: 800;
 }
 
 @font-face {
-  font-family: "Figtree";
-  src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
-    format("truetype");
-  font-style: italic;
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
 }
 
 * {
@@ -37,7 +35,7 @@ body {
 }
 
 body {
-  font-family: "Figtree", sans-serif;
+  font-family: "Inter", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,8 +56,8 @@ body p {
   border-radius: 20px;
   gap: 24px;
   padding: 24px;
-  box-shadow: 8px 8px 0 0 black;
-  border: solid 1px var(--gray-950);
+  /* box-shadow: 8px 8px 0 0 black; */
+  /* border: solid 1px var(--gray-950); */
 }
 
 /* .card:hover {
