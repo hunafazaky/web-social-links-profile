@@ -56,13 +56,8 @@ body p {
   border-radius: 20px;
   gap: 24px;
   padding: 24px;
-  /* box-shadow: 8px 8px 0 0 black; */
-  /* border: solid 1px var(--gray-950); */
 }
 
-/* .card:hover {
-  box-shadow: 16px 16px 0 0 black;
-} */
 .title:hover {
   cursor: pointer;
   color: var(--yellow);
@@ -79,16 +74,16 @@ body p {
 }
 
 .card section.header {
-  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .card section.header img {
-  /* width: 64px;
-  height: 64px; */
   border-radius: 50%;
+  width: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .card section.content {
@@ -101,24 +96,27 @@ body p {
 
 .fullname {
   text-align: center;
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 500;
   color: white;
   margin: 0;
   padding: 0;
+  margin-bottom: 15px;
 }
 
 .location {
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 500;
   color: var(--green);
   margin: 0;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .caption {
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   color: white;
   margin: 0;
   padding: 0;
@@ -142,6 +140,10 @@ body p {
   flex-direction: column;
   margin: 0;
   padding: 0;
+}
+
+.social-box li {
+  font-weight: 500;
 }
 
 .social-menu {
